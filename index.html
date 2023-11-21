@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2d4961013e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/sayyod.jpg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contect">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Sayyod</span><br>From Uzbekistan</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/rasmm.HEIC">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis fugit, rerum porro asperiores
+                        at vitae nemo quam ea quasi! Nulla, ut, illum hic beatae blanditiis architecto voluptatibus
+                        corrupti est quos, illo porro nostrum! Voluptas ea vero fuga excepturi commodi eius a repellat!
+                        Sapiente suscipit nisi iste architecto, ex doloremque totam!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                    </div>
+                    <div class="tab-contents avtive-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend</span><br>Create Website</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Proweb</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Proweb</li>
+                            <li><span>2022</span><br>ARU Cambridge</li>
+                            <li><span>2021</span><br>Cambridge International University (CIU)</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, possimus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-rocket"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, possimus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, possimus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/axm.webp" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus incidunt esse iure
+                            voluptates neque?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/343434.webp" alt="">
+                    <div class="layer">
+                        <h3>Web Design</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus incidunt esse iure
+                            voluptates neque?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus incidunt esse iure
+                            voluptates neque?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+
+
+
+    <div id="contect">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> sayyodmamadjonov24@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+998944234244</p>
+                    <div class="social-icons">
+                        <a href="https://accountscenter.facebook.com/profiles/100041705090319/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="images/Sayyod-resume.pdf" download="Sayyod-resume.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <script>
+        function opentab(evt, tabName) {
+          var i, tabcontent, tablinks;
+      
+          // Hide all tab contents
+          tabcontent = document.getElementsByClassName("tab-contents");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+      
+          // Deactivate all tab links
+          tablinks = document.getElementsByClassName("tab-links");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+          }
+      
+          // Show the selected tab content and set the tab link as active
+          document.getElementById(tabName).style.display = "block";
+          evt.currentTarget.classList.add("active-link");
+        }
+      </script>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-201px";
+    }
+
+</script>
+</body>
+
+</html>
